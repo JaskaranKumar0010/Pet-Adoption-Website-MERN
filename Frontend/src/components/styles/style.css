@@ -1,0 +1,57 @@
+.breeds-services .breed-services-item {
+    text-align: center;
+    margin: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.breeds-services .breed-services-item .thumb img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.breeds-services .breed-services-item .content {
+    padding: 20px;
+}
+
+.breeds-services .breed-services-item .content .title a {
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+}
+
+.breeds-services .breed-services-info {
+    padding: 30px;
+    color: #fff;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.breeds-services .breed-services-info .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.breeds-services .breed-services-shape {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.breeds-services .breed-services-shape.shape-two {
+    top: 0;
+    right: 0;
+    left: auto;
+}

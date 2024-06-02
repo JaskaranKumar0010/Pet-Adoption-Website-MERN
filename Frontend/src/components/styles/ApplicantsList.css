@@ -1,0 +1,123 @@
+
+.applicants-list {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px 20px 40px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.upper-area{
+  display: flex;
+  justify-content: center;
+}
+
+.applicants-list h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.applicant-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.applicant-info-container {
+  /* display: flex; */
+  /* align-items: center; */
+  width: 100%;
+}
+
+.card-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+.card-img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.applicant-details {
+  flex: 1;
+}
+
+.applicant-details h2 {
+  width: fit-content;
+  font-size: large;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.applicant-details p {
+  width: fit-content;
+  margin-bottom: auto;
+  color: black !important;
+  
+}
+
+.applicant-actions {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.accept-btn {
+  width: 45%;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+  border: 1px solid green;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.delete-btn{
+  width: 45%;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+  border: 1px solid red;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.chat-btn {
+  width: 90%;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+  border: 1px solid #4CCFF1;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.accept-btn img{
+  width: 35px;
+  height: 35px;
+}
+.delete-btn img{
+  width: 35px;
+  height: 35px;
+}
+.chat-btn img{
+  width: 35px;
+  height: 35px;
+}
