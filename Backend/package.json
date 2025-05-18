@@ -8,7 +8,7 @@
 
   "scripts": {
     "install-server": "npm install",
-    "start-server": "npm start",
+    "start-server": "node index.js",
     "install-client": "cd Frontend && npm install",
     "build-client": "npm run install-client && cd Frontend && npm run build",
     "start-client": "cd Frontend && npm start"
