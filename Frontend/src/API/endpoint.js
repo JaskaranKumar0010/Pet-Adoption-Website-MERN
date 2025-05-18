@@ -2,7 +2,8 @@ import axios from "axios";
 
 const token = localStorage.getItem("token");
 
-const BASE_URL = "http://localhost:5000";
+// const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://pet-adoption-server-inrv.onrender.com";
 
 const API = axios.create({
   baseURL: BASE_URL,

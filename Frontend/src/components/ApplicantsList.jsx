@@ -143,7 +143,7 @@ const ApplicantsList = () => {
                 <div className="applicant-info-container">
                   <div className="upper-area">
                     <div className="card-img">
-                      <img src={`http://localhost:5000/${applicant.profilephoto}`} alt={applicant.userName} className="profile-photo" />
+                      <img src={`https://pet-adoption-server-inrv.onrender.com/${applicant.profilephoto}`} alt={applicant.userName} className="profile-photo" />
                     </div>
 
                     <div className="applicant-details">

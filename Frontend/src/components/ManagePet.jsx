@@ -113,7 +113,7 @@ const ManagePet = ({ userid }) => {
                                     <div className="details">
                                         <div className="breeder-details-img" style={{ margin: "0" }}>
                                        <img src={mypet} alt="" style={{width:"52px", height:"52px", position:"absolute", zIndex:"1", left:"360px", top:"50px", padding:"2px"}} />
-                                            <img src={`http://localhost:5000/${pet.picture}`} alt="" />
+                                            <img src={`https://pet-adoption-server-inrv.onrender.com/${pet.picture}`} alt="" />
                                         </div>
 
                                         <div className="all-options">
@@ -128,7 +128,7 @@ const ManagePet = ({ userid }) => {
                                                 </div>
                                                 <div className="owner-content">
                                                     <div className="owner-img">
-                                                        <img src={`http://localhost:5000/${owner.profilephoto}`} alt="Owner" className="owner-photo" />
+                                                        <img src={`https://pet-adoption-server-inrv.onrender.com/${owner.profilephoto}`} alt="Owner" className="owner-photo" />
                                                     </div>
                                                     <div className="owner-info">
                                                         <h6 className="owner-name">{owner && owner.userName ? owner.userName : "Loading..."}</h6>

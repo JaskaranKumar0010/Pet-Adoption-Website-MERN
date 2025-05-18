@@ -10,12 +10,7 @@ import authRouter from "./routes/auth.js";
 import petRouter from "./routes/pets.js";
 const app = express();
 const port = process.env.PORT || 8000;
-app.use(cors({
-  origin: 'https://pet-portal-xblf.onrender.com', // adjust based on your frontend
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
-  credentials: true
-}));
+app.use(cors());
 app.use(express.json());
 app.use("/auth", authRouter);
 app.use("/pet", petRouter);
@@ -23,7 +18,6 @@ app.use("/pet", petRouter);
 //   console.log(`${req.method} ${req.url}`);
 //   next();
 // });
-
 
 
 

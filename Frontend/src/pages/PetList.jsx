@@ -58,7 +58,7 @@ const PetList = ({ userid }) => {
                                             boxShadow: 'rgba(0, 0, 0, 0.15) 0px 2px 8px', borderRadius: "20px"
                                         }}>
                                             <div className="adoption-shop-thumb" >
-                                                <img src={`http://localhost:5000/${pet.picture}`} alt="Pet Image" style={{ height: "400px", width: "100%" }} />
+                                                <img src={`https://pet-adoption-server-inrv.onrender.com/${pet.picture}`} alt="Pet Image" style={{ height: "400px", width: "100%" }} />
                                                 <button
                                                     className="btn"
                                                     onClick={() => navigate(`/applyadoption/${pet._id}`)}

@@ -99,7 +99,7 @@ const ProfilePage = ({ id }) => {
                         </div>
                         <div className="profile-content">
                             <div className="profile-image">
-                                <img src={`http://localhost:5000/${profiledata.profilephoto}`} alt="Profile" />
+                                <img src={`https://pet-adoption-server-inrv.onrender.com/${profiledata.profilephoto}`} alt="Profile" />
                                 {/* <FaRegEdit className="icnnn" onClick={toggleList} /> */}
                                 {!showList && <button
                                     className="btn"

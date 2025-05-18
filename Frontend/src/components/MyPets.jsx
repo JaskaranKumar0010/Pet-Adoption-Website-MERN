@@ -53,7 +53,7 @@ const MyPets = ({ userid }) => {
                                     }}>
                                         <img src={mypet} alt="" style={{ width: "50px", height: "50px", position: "absolute", zIndex: "1", right: "30px", top: "15px" }} />
                                         <div className="adoption-shop-thumb" >
-                                            <img src={`http://localhost:5000/${pet.picture}`} alt="Pet Image" style={{ height: "400px", width: "100%" }} />
+                                            <img src={`https://pet-adoption-server-inrv.onrender.com/${pet.picture}`} alt="Pet Image" style={{ height: "400px", width: "100%" }} />
                                             <button
                                                 className="btn"
                                                 onClick={() => navigate(`/managepet/${pet._id}`)}
