@@ -4,9 +4,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
+
   "scripts": {
     "install-server": "npm install",
-    "start-server": "npm run start",
+    "start-server": "npm run nodemon index.js",
     "install-client": "cd Frontend && npm install",
     "build-client": "npm run install-client && cd Frontend && npm run build",
     "start-client": "cd Frontend && npm start"
