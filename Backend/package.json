@@ -7,8 +7,8 @@
   "type": "module",
 
   "scripts": {
-    "install-server": "cd Backend && npm install",
-    "start-server": "cd Backend && npm start",
+    "install-server": "npm install",
+    "start-server": "npm start",
     "install-client": "cd Frontend && npm install",
     "build-client": "npm run install-client && cd Frontend && npm run build",
     "start-client": "cd Frontend && npm start"
