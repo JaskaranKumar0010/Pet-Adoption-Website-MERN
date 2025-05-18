@@ -115,7 +115,7 @@ const ApplicantsList = () => {
       if (applicant.chatEnabled === "true") {
         return {
           label: "Resume Chat",
-          onClick: () => handleResumeChat(applicantId)
+          // onClick: () => handleResumeChat(applicantId)
         };
       } else {
         return {
